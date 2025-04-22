@@ -14,7 +14,7 @@ export default function Home() {
       name: "Dasar Manajemen Jaringan",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      image: "/src/assets/DMJLogo.svg",
+      image: "/img/DMJLogo.svg",
       hoverColor: "hover:shadow-[#B39189]",
       link: "/dmj",
     },
@@ -23,7 +23,7 @@ export default function Home() {
       name: "Operating System",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      image: "/src/assets/OSLogo.svg",
+      image: "/img/OSLogo.svg",
       hoverColor: "hover:shadow-[#CB5154]",
       link: "/os",
     },
@@ -32,7 +32,7 @@ export default function Home() {
       name: "Sistem Basis Data",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      image: "/src/assets/SBDLogo.svg",
+      image: "/img/SBDLogo.svg",
       hoverColor: "hover:shadow-[#ADA075]",
       link: "/sbd",
     },
@@ -40,11 +40,11 @@ export default function Home() {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center flex-1 mt-12 transform transition-all duration-700 ${
+      className={`flex flex-col items-center justify-center flex-1 mt-16 transform transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <h1 className="text-4xl font-bold text-center mb-14">
+      <h1 className="text-4xl font-bold text-center mb-16">
         Welcome to Network Laboratory
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

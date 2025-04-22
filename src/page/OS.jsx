@@ -11,11 +11,11 @@ export default function OSPage() {
     <div
       className={`p-8 transform transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
+      } max-w-screen-lg mx-auto`}
     >
       <div className="flex items-center mb-6">
         <img
-          src="/src/assets/OSLogo.svg"
+          src="/img/OSLogo.svg"
           alt="OS Logo"
           className="h-16 w-16 mr-4"
         />

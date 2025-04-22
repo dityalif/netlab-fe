@@ -11,11 +11,11 @@ export default function SBD() {
     <div
       className={`p-8 transform transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      }`}
+      } max-w-screen-lg mx-auto`}
     >
       <div className="flex items-center mb-6">
         <img
-          src="/src/assets/SBDLogo.svg"
+          src="/img/SBDLogo.svg"
           alt="SBD Logo"
           className="h-16 w-16 mr-4"
         />
